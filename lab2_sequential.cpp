@@ -1,4 +1,3 @@
-//gauto
 #include <iostream>
 #include <vector>
 
@@ -18,7 +17,7 @@ void cross_correlation_sequential(const std::vector<int>& input, const std::vect
 int main() {
     // Generate an input signal and a kernel
     std::vector<int> input(N, 1);  // Example: Initialize with 1
-    std::vector<int> kernel(K, 1); // Example: Initialize with 1
+    std::vector<int> kernel = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // Changed kernel to make the result more interesting
     std::vector<int> output(N - K + 1, 0);
 
     // Compute the cross-correlation sequentially
