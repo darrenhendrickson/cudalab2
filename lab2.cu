@@ -1,5 +1,5 @@
 //use gauto to push to git
-
+//example code given
 #include <iostream>
 
 #include <cuda_runtime.h>
